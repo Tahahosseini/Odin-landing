@@ -41,7 +41,7 @@ a {
 }
 
 .navitem {
-  font-size: 16px;
+  font-size: 18px;
   color: #e5e7eb;
   font-weight: normal;
 }
@@ -99,10 +99,11 @@ a {
 
 /* INFROMATION SECTION */
 
-.info {
+.info-section {
   padding: 0;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .info-heading {
@@ -111,13 +112,14 @@ a {
   font-weight: 900;
   width: 100%;
   text-align: center;
-  margin: 40px;
+  margin: 40px 0 50px;
 }
 
 .icon-container {
   justify-content: center;
   flex: 1;
   max-width: 55%;
+  gap: 50px;
 }
 
 .fa-solid {
@@ -132,4 +134,28 @@ a {
 .column p {
   color: #757575;
   line-height: 1.3rem;
+}
+
+/* Quote Section */
+
+.quote-section {
+  background-color: #e5e7eb;
+  justify-content: center;
+  padding: 95px 25%;
+  flex-direction: column;
+}
+
+.quote {
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
+  line-height: 2.7rem;
+  margin: 0;
+}
+
+.ref {
+  font-weight: 800;
+  color: #1f2937;
+  align-self: flex-end;
+  margin: 0;
 }
