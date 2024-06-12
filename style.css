@@ -48,6 +48,10 @@ a {
 
 /* Left container in hero section */
 
+.hero-section {
+  min-width: 100%;
+}
+
 .left {
   flex-direction: column;
   width: 50%;
@@ -114,6 +118,10 @@ a {
   justify-content: center;
   flex: 1;
   max-width: 55%;
+}
+
+.fa-solid {
+  color: #3882f6;
 }
 
 .column {
