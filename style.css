@@ -1,1 +1,64 @@
-/* Font: Roboto */
+/* Global Settings */
+* {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 20px 18vw;
+  flex-wrap: wrap;
+}
+
+/* Navbar */
+.navbar {
+  align-items: center;
+  justify-content: start;
+  flex: 1;
+  gap: 25px;
+  margin: 0 0 50px;
+  min-width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.navitem {
+  font-size: 16px;
+  color: #e5e7eb;
+  font-weight: normal;
+}
+
+/* Left container in hero section */
+.left {
+  flex-direction: column;
+  width: 50%;
+}
+
+.heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: normal;
+  color: #e5e7eb;
+  line-height: 1.3em;
+}
