@@ -62,3 +62,14 @@ a {
   color: #e5e7eb;
   line-height: 1.3em;
 }
+
+.credit {
+  width: 171px;
+  height: 110px;
+}
+
+.right {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
