@@ -92,3 +92,36 @@ a {
   height: 110px;
   scale: 150%;
 }
+
+/* INFROMATION SECTION */
+
+.info {
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  margin: 40px;
+}
+
+.icon-container {
+  justify-content: center;
+  flex: 1;
+  max-width: 55%;
+}
+
+.column {
+  text-align: center;
+  color: #1f2937;
+}
+
+.column p {
+  color: #757575;
+  line-height: 1.3rem;
+}
