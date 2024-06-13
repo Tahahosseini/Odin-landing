@@ -193,3 +193,12 @@ cta-section p {
   border: #f9faf8 2px solid;
   font-weight: 500;
 }
+
+/* Footer  */
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  font-weight: 300;
+  padding: 30px;
+}
