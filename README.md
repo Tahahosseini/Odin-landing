@@ -6,4 +6,4 @@ I wanna try and recreate the landing page using html and css only.
 
 Start Date: June 12th, 2024
 <br>
-Finish Date: ?
+Finish Date: June 13th, 2024
